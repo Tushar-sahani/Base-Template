@@ -61,12 +61,12 @@ const About = () => {
                             <div className="flex max-md:flex-col max-md:p-0 p-2 ">
                                 <div className="flex pl-4 max-md:pl-0">
                                     <span>Name:</span>
-                                    <p className="pl-2 text-[#9f9f9f]">Tushar Sahani</p>
+                                    <p className="pl-2 text-[#9f9f9f]">John Doe</p>
                                 </div>
                                 <div className="flex pl-40 max-md:pl-0">
                                     <span>Email:</span>
                                     <p className="pl-2 text-[#009e66] hover:text-[#346b57] cursor-pointer">
-                                        <a href="mailto:tusharsahani000@gmail.com">tusharsahani000@gmail.com</a>
+                                        <a href="mailto:johndoe@gmail.com">johndoe@gmail.com</a>
                                     </p>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ const About = () => {
                                 </div>
                                 <div className="flex pl-[283px] max-md:pl-0">
                                     <span>Live: </span>
-                                    <p className="pl-2 text-[#9f9f9f]">Deoria, Uttar Pradesh</p>
+                                    <p className="pl-2 text-[#9f9f9f]">XYZ, XYZ</p>
                                 </div>
                             </div>
                         </div>
