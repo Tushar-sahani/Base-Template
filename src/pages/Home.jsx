@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Services from '../components/Services';
@@ -93,15 +92,12 @@ function Home() {
     }
     return (
         <>
-            <Header />
             <Hero />
             <About />
             <Skills />
-            <Projects />
             <Services />
             <Timeline />
             <Testimonial />
-            <Contact />
         </>
     );
 }
